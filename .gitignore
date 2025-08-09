@@ -1,0 +1,53 @@
+# ------------------------
+# Python and Jupyter
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.so
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ------------------------
+# SageMaker / AWS
+# ------------------------
+.sagemaker/
+.sagemaker-studio/
+*.sage-jupyter-*
+lost+found/
+
+# ------------------------
+# Data files (restricted by assignment)
+# ------------------------
+Images/
+Images.zip
+data/
+data.zip
+dev_data_2025.csv
+future_data_2025.csv
+s1234567_predictions.csv
+*.tfrecord
+*.h5
+*.ckpt
+*.pth
+
+# ------------------------
+# Outputs / Logs
+# ------------------------
+logs/
+checkpoints/
+runs/
+outputs/
+models/
+*.log
+*.out
+*.err
+
+# ------------------------
+# OS / Misc
+# ------------------------
+.DS_Store
+Thumbs.db
+
